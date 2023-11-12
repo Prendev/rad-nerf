@@ -1,12 +1,8 @@
-torch-ema
-ninja
 trimesh
-opencv-python
+opencv-python==4.8.1.78
 tensorboardX
-torch
-numpy 
 pandas
-tqdm
+tqdm==4.66.1
 matplotlib
 PyMCubes
 rich
