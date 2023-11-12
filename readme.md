@@ -12,6 +12,19 @@ https://user-images.githubusercontent.com/25863658/201629660-7ada624b-8602-4cfe-
 
 # Install
 
+(https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)[CUDA11.8]
+(https://nuwen.net/mingw.html)[MINIGW18]
+C++17
+
+### Real installation Windows
+```bash
+conda create -n pytorch3d python=3.10
+conda activate pytorch3d
+conda install pytorch=2.1.0 torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+bash scripts/install_ext.sh
+```
+
 Tested on Ubuntu 22.04, Pytorch 1.12 and CUDA 11.6.
 
 ```bash
