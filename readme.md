@@ -12,8 +12,8 @@ https://user-images.githubusercontent.com/25863658/201629660-7ada624b-8602-4cfe-
 
 # Install
 
-(https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)[CUDA11.8]
-(https://nuwen.net/mingw.html)[MINIGW18]
+[CUDA11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local)
+[MINIGW18](https://nuwen.net/mingw.html)
 C++17
 
 ### Real installation Windows
